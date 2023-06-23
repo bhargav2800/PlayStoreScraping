@@ -2,6 +2,9 @@
 Play Store Scrapping with Django \
 https://play.google.com/store/games?hl=en&amp;gl=US
 
+# Install python3.11
+sudo apt install python3.11
+
 # Steps to run the project
 1. Take a pull of repo.
 2. Command for installing requirements : **pip install -r requirements.txt**
