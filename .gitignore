@@ -1,0 +1,29 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+
+### Django.Python Stack ###
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Environments
+.env
+env
+
+# git
+.idea/
+static/
