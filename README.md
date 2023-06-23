@@ -1,4 +1,4 @@
-# PlayStoreScraping
+# PlayStoreScraping (python3.11)
 Play Store Scrapping with Django \
 https://play.google.com/store/games?hl=en&amp;gl=US
 
