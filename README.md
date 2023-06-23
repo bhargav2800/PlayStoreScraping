@@ -5,7 +5,7 @@ https://play.google.com/store/games?hl=en&amp;gl=US
 # Install python3.11
 sudo apt install python3.11
 
-# Instal RebbitMq Globally
+# Install RebbitMq Globally
 sudo apt-get install rabbitmq-server
 
 
