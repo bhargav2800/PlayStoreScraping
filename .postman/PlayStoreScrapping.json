@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "42911695-0fdf-41ff-ac3a-f71019aff586",
+		"name": "PlayStoreScrapping",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21260431"
+	},
+	"item": [
+		{
+			"name": "Initiate games path scrapping",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/playstore/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"playstore",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scrap game detail view",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/playstore/details/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"playstore",
+						"details",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Game Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/playstore/details/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"playstore",
+						"details",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

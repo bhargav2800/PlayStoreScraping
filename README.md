@@ -10,3 +10,4 @@ https://play.google.com/store/games?hl=en&amp;gl=US
    (1) Scrape game package names using scrapy : http://127.0.0.1:8000/playstore/ (POST)\
    (2) Scrape game details using google-play-scraper : http://127.0.0.1:8000/playstore/details/ (POST)\
    (3) List Scraped data : http://127.0.0.1:8000/playstore/details/ (GET)
+5. Please refer postman collection added in project directory > .postman folder
